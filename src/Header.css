@@ -1,0 +1,67 @@
+.logo_container {
+    display: flex;
+    background: black;
+    padding: 15px 0 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blanchedalmond;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    background-color: antiquewhite;
+    align-self: center;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.logo_name {
+    margin-left: 5px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.search_box {
+    width: 100%;
+    height: 37px;
+    border: none;
+    border-radius: 7px 0 0 7px;
+}
+
+.navigation {
+    display: flex;
+    color: antiquewhite;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.sign_in_nav {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction: column;
+}
+
+.shop_nav {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction: column;
+}
+
+.basket_nav {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction: column;
+}
